@@ -7,7 +7,7 @@ module.exports = {
     slackUrl: `https://samenorganiseren.slack.com/archives/CT6UH711Q`,
     languages: ['en' ,'nl'],
     defaultLanguage: 'nl',
-    pathPrefix: "/openzaaktest"
+//pathPrefix: "/openzaaktest"
   },
   plugins: [
     `gatsby-plugin-styled-components`,
