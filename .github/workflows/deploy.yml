@@ -1,10 +1,7 @@
 name: Deploy website
 on:
-  push:
+  pull_request:
     branches:
-#      - develop
-
-    pull_request:
       - develop
 
 jobs:
