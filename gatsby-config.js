@@ -6,7 +6,8 @@ module.exports = {
     repositoryUrl: `https://github.com/open-zaak/`,
     slackUrl: `https://samenorganiseren.slack.com/archives/CT6UH711Q`,
     languages: ['en' ,'nl'],
-    defaultLanguage: 'nl'
+    defaultLanguage: 'nl',
+    pathPrefix: "/openzaaktest"
   },
   plugins: [
     `gatsby-plugin-styled-components`,
