@@ -2,7 +2,8 @@ name: Test
 on:
   push:
     branches:
-      - new-design
+      - master
+      - develop
   pull_request:
 
 env:
